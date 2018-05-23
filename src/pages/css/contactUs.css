@@ -1,0 +1,59 @@
+.contactUs {
+  background-image: url("/assets/images/ContactUS.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 46px;
+  font-family: Montserrat;
+}
+.contactUs .fontSize {
+  font-size: 22px;
+  font-weight: 800;
+}
+.contactUs .textSize {
+  font-size: 13px;
+  font-weight: 500;
+}
+.contactUs .paddingBottom-17 {
+  padding-bottom: 17px;
+}
+.contactUs .map {
+  width: 315px;
+  height: 236px;
+}
+.contactUs .inputStyle {
+  border: 2px solid white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 5px;
+  color: #c2c2c2;
+  padding-left: 4px;
+  background: black;
+}
+.contactUs Button {
+  width: 90px;
+  padding: 5px;
+  border-radius: 0px;
+  background: #e32125;
+  border: none;
+}
+.contactUs Button:visited {
+  color: green;
+  background: black;
+}
+.contactUs Button:hover {
+  background: black;
+  border: 1px solid red;
+}
+.contactUs button:active {
+  background: red;
+}
+.contactUs form {
+  font-family: Montserrat;
+}
+@media only screen and (max-width: 767px) {
+  .contactUs {
+    background-image: url("/assets/images/ContactUsMobile.png");
+    background-size: cover;
+    min-height: 680px;
+  }
+}

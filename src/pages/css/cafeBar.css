@@ -1,0 +1,42 @@
+.cafeBar .background1 {
+  background-image: url("/assets/images/CafeBackgroun1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 46px;
+  min-height: 756px;
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .cafeBar .background1 {
+    background-image: url("/assets/images/CafeHomeMobile.png");
+    background-size: cover;
+    min-height: 615px;
+  }
+}
+.cafeBar .background2 {
+  background-image: url("/assets/images/CafeBackgroun2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 46px;
+  min-height: 756px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+@media only screen and (max-width: 767px) {
+  .cafeBar .background2 {
+    background-image: url("/assets/images/CafeBackgroun1Mobile.png");
+    background-size: cover;
+    min-height: 615px;
+  }
+}
+.cafeBar Button {
+  width: 118px;
+  padding: 4px;
+  border-radius: 0px;
+  background: #ffcc01;
+  color: black;
+  border: none;
+  border: solid 1px #979797;
+}

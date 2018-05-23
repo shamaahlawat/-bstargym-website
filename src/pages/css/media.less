@@ -1,0 +1,100 @@
+    .MediaContainer {
+        // background-image: url("/assets/images/Media.png");
+        background-size: cover;
+        min-height: 85vh;
+        margin-top: 50px;
+        .marginBottom-20 {
+            margin-bottom: 35px;
+        }
+        .heading {
+            margin-left: 2rem;
+            color: white;
+            font-size: 21px;
+            font-weight: 600;
+            padding-bottom: 10px;
+        }
+        @media only screen and (max-width: 767px) {
+            .heading {
+                margin-top: -30px;
+            }
+        }
+        .height {
+            height: 83vh;
+        }
+        .imagePop {
+            height: 100%;
+        }
+        .modal-content {
+            background: black !important;
+        }
+        .popup {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            right: 40px;
+            bottom: 40px;
+            border: 1px solid rgb(204, 204, 204);
+            background: rgb(255, 255, 255);
+            overflow: auto;
+            border-radius: 4px;
+            outline: none;
+            padding: 20px;
+        }
+        .flex-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            img {
+                height: 27vh;
+                cursor: pointer;
+            }
+            .imageStyle {
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 10px;
+            }
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .activeStep{
+            background: black !important;
+            border: 1px solid red !important;
+        }
+        .menu {
+            li {
+                display: inline;
+                cursor: pointer;
+            }
+            a {
+                color: white;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            .circularDiv:hover {
+                background: black;
+                text-decoration: none;
+                border: 1px solid red;
+            }
+            .circularDiv {
+                background: #e32125;
+                padding: 7px;
+                padding-left: 12px;
+                padding-right: 12px;
+                border-radius: 50%;
+                font-size: 18px;
+                font-weight: 600;
+                margin: 0 7px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .MediaContainer {
+            background-image: url("/assets/images/MediaMobile.png");
+            background-size: cover;
+        }
+    }

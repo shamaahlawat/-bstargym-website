@@ -1,0 +1,96 @@
+.MediaContainer {
+  background-size: cover;
+  min-height: 85vh;
+  margin-top: 50px;
+}
+.MediaContainer .marginBottom-20 {
+  margin-bottom: 35px;
+}
+.MediaContainer .heading {
+  margin-left: 2rem;
+  color: white;
+  font-size: 21px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .MediaContainer .heading {
+    margin-top: -30px;
+  }
+}
+.MediaContainer .height {
+  height: 83vh;
+}
+.MediaContainer .imagePop {
+  height: 100%;
+}
+.MediaContainer .modal-content {
+  background: black !important;
+}
+.MediaContainer .popup {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+.MediaContainer .flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.MediaContainer .flex-box img {
+  height: 27vh;
+  cursor: pointer;
+}
+.MediaContainer .flex-box .imageStyle {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.MediaContainer .buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.MediaContainer .activeStep {
+  background: black !important;
+  border: 1px solid red !important;
+}
+.MediaContainer .menu li {
+  display: inline;
+  cursor: pointer;
+}
+.MediaContainer .menu a {
+  color: white;
+}
+.MediaContainer .menu a:hover {
+  text-decoration: none;
+}
+.MediaContainer .menu .circularDiv:hover {
+  background: black;
+  text-decoration: none;
+  border: 1px solid red;
+}
+.MediaContainer .menu .circularDiv {
+  background: #e32125;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 7px;
+}
+@media only screen and (max-width: 767px) {
+  .MediaContainer {
+    background-image: url("/assets/images/MediaMobile.png");
+    background-size: cover;
+  }
+}

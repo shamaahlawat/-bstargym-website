@@ -1,0 +1,68 @@
+.AppHeader {
+  min-height: 7vh;
+}
+.AppHeader .navbar {
+  margin-bottom: 0;
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: raleway;
+  background: black;
+}
+.AppHeader .navbar .logo a {
+  text-decoration: inherit;
+  color: inherit;
+}
+.AppHeader .navbar .marginTB-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.AppHeader .navbar .padding-10 {
+  padding: 0 10px;
+}
+.AppHeader .navbar .paddingTop-7 {
+  padding-top: 7px;
+}
+.AppHeader .navbar .padding-7 {
+  padding: 7px;
+}
+.AppHeader .navbar .LRmargin-15 {
+  margin: 0 5px;
+}
+.AppHeader .navbar .nav {
+  border-radius: 0px;
+}
+.AppHeader .navbar .nav li {
+  border-bottom: 2px solid transparent;
+}
+.AppHeader .navbar .nav li:hover {
+  border-bottom: 1px solid #e32125;
+}
+.AppHeader .navbar .active {
+  border-bottom: 1px solid #e32125 !important;
+}
+.AppHeader .navbar .nav .dropdown-menu li {
+  background: white !important;
+  color: black !important;
+}
+.AppHeader .navbar .dropdown-menu li a {
+  color: black !important;
+  padding: 8px 8px;
+  background: white;
+  font-weight: 600;
+}
+.AppHeader .navbar .dropdown-menu :hover {
+  color: white;
+}
+.AppHeader .navbar .dropdown-menu {
+  background: white;
+  margin-left: -38px;
+  border-radius: 10px;
+  padding: 6px 1px;
+  top: 113%;
+}
+@media only screen and (max-width: 767px) {
+  .AppHeader .navbar .dropdown-menu {
+    margin-left: 0px;
+  }
+}

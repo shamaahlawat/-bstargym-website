@@ -1,0 +1,43 @@
+@media only screen and (min-width: 768px) {
+  .bhavinPatel .trainerSection {
+    background-image: url("/assets/images/BhavinPatel.png");
+    background-size: cover;
+    height: 92.5vh;
+  }
+  .bhavinPatel .pText {
+    font-family: raleway;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .bhavinPatel .trainerSection {
+    background-image: url("/assets/images/BhavinPatelMobile.png");
+    background-size: cover;
+    min-height: 680px;
+  }
+  .bhavinPatel .pText {
+    font-family: raleway;
+    font-size: 13px;
+  }
+}
+.bhavinPatel .trainerInfo {
+  margin-top: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .bhavinPatel .trainerInfo {
+    margin-top: 259px;
+  }
+}
+.bhavinPatel .fontSize {
+  font-weight: 700;
+  font-size: 25px;
+  font-Family: "Raleway";
+}
+.bhavinPatel .flex-box {
+  color: white;
+  display: flex;
+  padding: 10px;
+}
+.bhavinPatel .yellow {
+  color: #F6B909;
+}

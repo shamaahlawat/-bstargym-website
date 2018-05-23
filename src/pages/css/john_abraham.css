@@ -1,0 +1,36 @@
+@media only screen and (min-width: 768px) {
+  .john .johnAbraham {
+    background-image: url("/assets/images/john.png");
+    background-size: cover;
+    height: 92.5vh;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .john .johnAbraham {
+    background-image: url("/assets/images/johnMobile.png");
+    background-size: cover;
+    min-height: 680px;
+  }
+}
+.john .johnAbraham {
+  padding-bottom: 60px;
+}
+.john .johnAbraham .fontSize {
+  font-size: 25px;
+}
+.john .johnAbraham .flex-box {
+  color: white;
+  display: flex;
+  padding: 10px;
+}
+.john .johnAbraham .yellow {
+  color: #F6B909;
+}
+.john .johnAbraham .trainerInfo {
+  margin-top: 260px;
+}
+@media only screen and (max-width: 767px) {
+  .john .johnAbraham .trainerInfo {
+    margin-top: 296px;
+  }
+}

@@ -1,0 +1,39 @@
+.about_container {
+  background: black;
+  min-height: 93vh;
+}
+.about_container .fontFamily {
+  font-family: raleway;
+}
+.about_container .noPadding {
+  padding: 0px;
+}
+.about_container .image {
+  background-image: linear-gradient(to bottom right, #454545, #000000);
+}
+.about_container .textSection {
+  display: flex;
+  height: 292px;
+  align-items: center;
+  font-family: Raleway;
+}
+.about_container .textSection p {
+  font-size: 13px;
+}
+.about_container .flex-box {
+  font-size: 15px;
+  color: white;
+}
+.about_container .flex-box h3 {
+  font-size: 22px;
+  color: #e32125;
+}
+@media only screen and (max-width: 767px) {
+  .about_container .textSection {
+    height: 63vh;
+    padding-bottom: 40px;
+  }
+  .about_container img {
+    height: 300px;
+  }
+}

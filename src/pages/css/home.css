@@ -1,0 +1,18 @@
+.HomePage {
+  background-image: url("/assets/images/Home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 46px;
+  min-height: 92.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .HomePage {
+    min-height: 616px;
+  }
+  .HomePage img {
+    height: 265px;
+  }
+}

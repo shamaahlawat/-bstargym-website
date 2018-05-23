@@ -1,0 +1,115 @@
+.backgroundImage {
+  background-image: url("/assets/images/Packages (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 92.5vh;
+}
+.backgroundImage .PackageContainer .imagePadding {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+.backgroundImage .PackageContainer .imagePadding img {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.backgroundImage .PackageContainer .borderRight {
+  border-right: 1px solid white;
+}
+.backgroundImage .PackageContainer .menVSwomen {
+  display: flex;
+  justify-content: center;
+}
+.backgroundImage .PackageContainer .moreAbout {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+.backgroundImage .PackageContainer .choosePlan {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .backgroundImage .PackageContainer .choosePlan .heading {
+    font-size: 28px;
+    font-weight: 900;
+  }
+  .backgroundImage .PackageContainer .choosePlan .description {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .backgroundImage .PackageContainer .choosePlan .heading {
+    font-size: 39px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .backgroundImage .PackageContainer .choosePlan .description {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .backgroundImage .PackageContainer .choosePlan {
+    margin-top: 36px;
+  }
+}
+.backgroundImage .PackageContainer .noOfPlans {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 25px;
+}
+.backgroundImage .PackageContainer .plans {
+  text-align: center;
+}
+.backgroundImage .PackageContainer .plans h1 {
+  font-size: 110px;
+  font-weight: 800;
+  position: relative;
+  margin-bottom: 30px;
+  color: #e32125;
+}
+.backgroundImage .PackageContainer .plans .highlight {
+  color: white;
+  font-family: raleway;
+  font-size: 20px;
+}
+.backgroundImage .PackageContainer .plans .explaination {
+  font-size: 13px;
+  color: white;
+  margin-bottom: 17px;
+  font-family: raleway;
+}
+@media only screen and (min-width: 768px) {
+  .backgroundImage .PackageContainer .plans .highlight {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .backgroundImage .PackageContainer .plans .explaination {
+    padding-bottom: 40px;
+    font-size: 26px;
+  }
+}
+.backgroundImage .PackageContainer .plans .highlight {
+  position: relative;
+  bottom: 60px;
+}
+.backgroundImage .PackageContainer .flex-box {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: raleway;
+  position: relative;
+  bottom: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .backgroundImage .PackageContainer .package {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .backgroundImage {
+    background-image: url("/assets/images/packageMobile.png");
+    background-size: cover;
+  }
+}

@@ -1,0 +1,40 @@
+.about_container {
+    background: black;
+    min-height: 93vh;
+    .fontFamily {
+        font-family: raleway;
+    }
+    .noPadding {
+        padding: 0px;
+    }
+    .image {
+        background-image: linear-gradient(to bottom right, #454545, #000000);
+    }
+    .textSection {
+        display: flex;
+        height: 292px;
+        align-items: center;
+        font-family: Raleway;
+        // margin-bottom: 20px;
+        p {
+            font-size: 13px;
+        }
+    }
+    .flex-box {
+        font-size: 15px;
+        color: white;
+        h3 {
+            font-size: 22px;
+            color: #e32125;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .textSection {
+            height: 63vh;
+            padding-bottom: 40px;
+        }
+        img {
+            height: 300px;
+        }
+    }
+}

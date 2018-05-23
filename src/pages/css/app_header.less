@@ -1,0 +1,73 @@
+.AppHeader {
+    min-height: 7vh;
+    .navbar {
+        margin-bottom: 0;
+        flex: 1;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: raleway;
+        background: black;
+        .logo {
+            a {
+                text-decoration: inherit;
+                color: inherit;
+            }
+        }
+        .marginTB-15 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        .padding-10 {
+            padding: 0 10px;
+        }
+        .paddingTop-7 {
+            padding-top: 7px;
+        }
+        .padding-7 {
+            padding: 7px;
+        }
+        .LRmargin-15 {
+            margin: 0 5px;
+        }
+        .nav {
+            border-radius: 0px;
+        }
+        .nav li {
+            border-bottom: 2px solid transparent;
+        }
+        .nav li:hover {
+            border-bottom: 1px solid #e32125;
+        }
+        .active {
+            border-bottom: 1px solid #e32125 !important;
+        }
+        .nav .dropdown-menu li {
+            background: white !important;
+            color: black !important;
+        }
+        .dropdown-menu li a {
+            color: black !important;
+            padding: 8px 8px;
+            background: white;
+            font-weight: 600;
+        }
+        .dropdown-menu :hover {
+            color: white;
+        }
+        .dropdown-menu {
+            background: white;
+            margin-left: -38px;
+            border-radius: 10px;
+            padding: 6px 1px;
+            top: 113%;
+        } // .navbar-nav li a {
+        //     color: white !important;
+        //     font-weight: 500;
+        // }
+        @media only screen and (max-width: 767px) {
+            .dropdown-menu {
+                margin-left: 0px;
+            }
+        }
+    }
+}
